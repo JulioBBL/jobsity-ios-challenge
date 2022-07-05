@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		31D27B4C2870A49B001A757D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B4B2870A49B001A757D /* AppDelegate.swift */; };
 		31D27B4E2870A49B001A757D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B4D2870A49B001A757D /* SceneDelegate.swift */; };
-		31D27B502870A49B001A757D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B4F2870A49B001A757D /* ViewController.swift */; };
-		31D27B532870A49B001A757D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D27B512870A49B001A757D /* Main.storyboard */; };
 		31D27B552870A49C001A757D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D27B542870A49C001A757D /* Assets.xcassets */; };
 		31D27B582870A49C001A757D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D27B562870A49C001A757D /* LaunchScreen.storyboard */; };
 		31D27B632870A49C001A757D /* Jobsity_JulioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B622870A49C001A757D /* Jobsity_JulioTests.swift */; };
 		31D27B6D2870A49C001A757D /* Jobsity_JulioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B6C2870A49C001A757D /* Jobsity_JulioUITests.swift */; };
 		31D27B6F2870A49C001A757D /* Jobsity_JulioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B6E2870A49C001A757D /* Jobsity_JulioUITestsLaunchTests.swift */; };
+		31D27B862870B7EC001A757D /* SeriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B852870B7EC001A757D /* SeriesTableViewController.swift */; };
+		31D27B882870B950001A757D /* SeriesPrefetchingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B872870B950001A757D /* SeriesPrefetchingDataSource.swift */; };
+		31D27B8C2870BB0F001A757D /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B8B2870BB0F001A757D /* RequestHandler.swift */; };
+		31D27B8E2870BB1D001A757D /* RequestDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B8D2870BB1D001A757D /* RequestDefinition.swift */; };
+		31D27B902870C0BE001A757D /* SeriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B8F2870C0BE001A757D /* SeriesCell.swift */; };
+		31D27B922870C715001A757D /* SeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B912870C715001A757D /* SeriesModel.swift */; };
+		31D27B942870F9BD001A757D /* Array+safeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B932870F9BD001A757D /* Array+safeSubscript.swift */; };
+		31D27B972871014D001A757D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 31D27B962871014D001A757D /* SDWebImage */; };
+		31D27B9928725BDA001A757D /* SeriesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B9828725BDA001A757D /* SeriesDetailViewController.swift */; };
+		31D27B9B28726335001A757D /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B9A28726335001A757D /* PageModel.swift */; };
+		31D27B9F2872713E001A757D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27B9E2872713E001A757D /* BackgroundView.swift */; };
+		31D27BA12873AD80001A757D /* UILabel+SetTextOrHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27BA02873AD80001A757D /* UILabel+SetTextOrHide.swift */; };
+		31D27BA32873AF25001A757D /* String+easyJoining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27BA22873AF25001A757D /* String+easyJoining.swift */; };
+		31D27BA62873C105001A757D /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27BA52873C105001A757D /* SeasonView.swift */; };
+		31D27BA82873C10E001A757D /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D27BA72873C10E001A757D /* EpisodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		31D27B482870A49B001A757D /* Jobsity-Julio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jobsity-Julio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D27B4B2870A49B001A757D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31D27B4D2870A49B001A757D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31D27B4F2870A49B001A757D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31D27B522870A49B001A757D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31D27B542870A49C001A757D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D27B572870A49C001A757D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D27B592870A49C001A757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,20 @@
 		31D27B682870A49C001A757D /* Jobsity-JulioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jobsity-JulioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D27B6C2870A49C001A757D /* Jobsity_JulioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobsity_JulioUITests.swift; sourceTree = "<group>"; };
 		31D27B6E2870A49C001A757D /* Jobsity_JulioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobsity_JulioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31D27B852870B7EC001A757D /* SeriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesTableViewController.swift; sourceTree = "<group>"; };
+		31D27B872870B950001A757D /* SeriesPrefetchingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesPrefetchingDataSource.swift; sourceTree = "<group>"; };
+		31D27B8B2870BB0F001A757D /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		31D27B8D2870BB1D001A757D /* RequestDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDefinition.swift; sourceTree = "<group>"; };
+		31D27B8F2870C0BE001A757D /* SeriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCell.swift; sourceTree = "<group>"; };
+		31D27B912870C715001A757D /* SeriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesModel.swift; sourceTree = "<group>"; };
+		31D27B932870F9BD001A757D /* Array+safeSubscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+safeSubscript.swift"; sourceTree = "<group>"; };
+		31D27B9828725BDA001A757D /* SeriesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetailViewController.swift; sourceTree = "<group>"; };
+		31D27B9A28726335001A757D /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		31D27B9E2872713E001A757D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		31D27BA02873AD80001A757D /* UILabel+SetTextOrHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+SetTextOrHide.swift"; sourceTree = "<group>"; };
+		31D27BA22873AF25001A757D /* String+easyJoining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+easyJoining.swift"; sourceTree = "<group>"; };
+		31D27BA52873C105001A757D /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		31D27BA72873C10E001A757D /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D27B972871014D001A757D /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +127,12 @@
 			children = (
 				31D27B4B2870A49B001A757D /* AppDelegate.swift */,
 				31D27B4D2870A49B001A757D /* SceneDelegate.swift */,
-				31D27B4F2870A49B001A757D /* ViewController.swift */,
-				31D27B512870A49B001A757D /* Main.storyboard */,
+				31D27B932870F9BD001A757D /* Array+safeSubscript.swift */,
+				31D27BA02873AD80001A757D /* UILabel+SetTextOrHide.swift */,
+				31D27BA22873AF25001A757D /* String+easyJoining.swift */,
+				31D27B892870BA9A001A757D /* Models */,
+				31D27B8A2870BAB5001A757D /* Request */,
+				31D27B7B2870A9EB001A757D /* Scenes */,
 				31D27B542870A49C001A757D /* Assets.xcassets */,
 				31D27B562870A49C001A757D /* LaunchScreen.storyboard */,
 				31D27B592870A49C001A757D /* Info.plist */,
@@ -127,6 +157,70 @@
 			path = "Jobsity-JulioUITests";
 			sourceTree = "<group>";
 		};
+		31D27B7B2870A9EB001A757D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				31D27B802870AA19001A757D /* EpisodeDetail */,
+				31D27B7F2870AA0D001A757D /* SeriesDetail */,
+				31D27B7C2870A9F2001A757D /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		31D27B7C2870A9F2001A757D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31D27B852870B7EC001A757D /* SeriesTableViewController.swift */,
+				31D27B872870B950001A757D /* SeriesPrefetchingDataSource.swift */,
+				31D27B8F2870C0BE001A757D /* SeriesCell.swift */,
+				31D27B9E2872713E001A757D /* BackgroundView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		31D27B7F2870AA0D001A757D /* SeriesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				31D27BA42873C08D001A757D /* accessory views */,
+				31D27B9828725BDA001A757D /* SeriesDetailViewController.swift */,
+			);
+			path = SeriesDetail;
+			sourceTree = "<group>";
+		};
+		31D27B802870AA19001A757D /* EpisodeDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EpisodeDetail;
+			sourceTree = "<group>";
+		};
+		31D27B892870BA9A001A757D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31D27B912870C715001A757D /* SeriesModel.swift */,
+				31D27B9A28726335001A757D /* PageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31D27B8A2870BAB5001A757D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				31D27B8B2870BB0F001A757D /* RequestHandler.swift */,
+				31D27B8D2870BB1D001A757D /* RequestDefinition.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		31D27BA42873C08D001A757D /* accessory views */ = {
+			isa = PBXGroup;
+			children = (
+				31D27BA52873C105001A757D /* SeasonView.swift */,
+				31D27BA72873C10E001A757D /* EpisodeView.swift */,
+			);
+			path = "accessory views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +237,9 @@
 			dependencies = (
 			);
 			name = "Jobsity-Julio";
+			packageProductDependencies = (
+				31D27B962871014D001A757D /* SDWebImage */,
+			);
 			productName = "Jobsity-Julio";
 			productReference = 31D27B482870A49B001A757D /* Jobsity-Julio.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +312,9 @@
 				Base,
 			);
 			mainGroup = 31D27B3F2870A49B001A757D;
+			packageReferences = (
+				31D27B952871014D001A757D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 31D27B492870A49B001A757D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +333,6 @@
 			files = (
 				31D27B582870A49C001A757D /* LaunchScreen.storyboard in Resources */,
 				31D27B552870A49C001A757D /* Assets.xcassets in Resources */,
-				31D27B532870A49B001A757D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +357,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D27B502870A49B001A757D /* ViewController.swift in Sources */,
+				31D27B882870B950001A757D /* SeriesPrefetchingDataSource.swift in Sources */,
+				31D27BA12873AD80001A757D /* UILabel+SetTextOrHide.swift in Sources */,
+				31D27B862870B7EC001A757D /* SeriesTableViewController.swift in Sources */,
+				31D27B9F2872713E001A757D /* BackgroundView.swift in Sources */,
+				31D27BA32873AF25001A757D /* String+easyJoining.swift in Sources */,
+				31D27B902870C0BE001A757D /* SeriesCell.swift in Sources */,
+				31D27B8C2870BB0F001A757D /* RequestHandler.swift in Sources */,
+				31D27B9B28726335001A757D /* PageModel.swift in Sources */,
+				31D27B942870F9BD001A757D /* Array+safeSubscript.swift in Sources */,
+				31D27BA82873C10E001A757D /* EpisodeView.swift in Sources */,
 				31D27B4C2870A49B001A757D /* AppDelegate.swift in Sources */,
+				31D27B922870C715001A757D /* SeriesModel.swift in Sources */,
+				31D27B8E2870BB1D001A757D /* RequestDefinition.swift in Sources */,
 				31D27B4E2870A49B001A757D /* SceneDelegate.swift in Sources */,
+				31D27B9928725BDA001A757D /* SeriesDetailViewController.swift in Sources */,
+				31D27BA62873C105001A757D /* SeasonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		31D27B512870A49B001A757D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31D27B522870A49B001A757D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31D27B562870A49C001A757D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,11 +541,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 524D3B9S8F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jobsity-Julio/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,11 +568,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 524D3B9S8F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jobsity-Julio/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +700,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31D27B952871014D001A757D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31D27B962871014D001A757D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31D27B952871014D001A757D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31D27B402870A49B001A757D /* Project object */;
 }

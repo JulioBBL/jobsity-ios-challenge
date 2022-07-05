@@ -1,0 +1,22 @@
+{
+  "DVTSourceControlWorkspaceBlueprintLocationsKey" : {
+    "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : {
+      "DVTSourceControlWorkspaceBlueprintLocationTypeKey" : "DVTSourceControlLockedRevisionLocation",
+      "DVTSourceControlLocationRevisionKey" : "c4b8660bb3ef543fe4bdcaac0db956b32dc5583f"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B79BC7F-39FA-41A8-B46F-D0A57DBD13F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : "..\/Library\/Developer\/Xcode\/DerivedData\/Jobsity-Julio-alodpmalbmoettdvysjgtxwltzat\/SourcePackages\/checkouts\/SDWebImage"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Jobsity-Julio",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Jobsity-Julio.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/juliobrazil\/Library\/Developer\/Xcode\/DerivedData\/Jobsity-Julio-alodpmalbmoettdvysjgtxwltzat\/SourcePackages\/repositories\/SDWebImage-990602f9",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E28E36D423EC87798E52E2BF482E9F7A1E6479D6"
+    }
+  ]
+}
